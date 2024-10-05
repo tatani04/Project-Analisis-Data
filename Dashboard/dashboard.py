@@ -19,7 +19,7 @@ st.title("Analisis Data Kualitas Udara di Kota Wanshouxigong")
 # 1. Memuat Dataset dari Google Drive
 @st.cache_data
 def load_data():
-    data = pd.read_csv('all_data.csv')
+    data = pd.read_csv('Dashboard/all_data.csv')
     return data
 
 data = load_data()
